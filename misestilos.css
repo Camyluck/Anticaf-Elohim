@@ -1,0 +1,394 @@
+.navbar-toggler{
+    background-color: #915a34;
+    border: 2px #ebccb7;
+}
+
+h1 {
+    font-family: serif;
+}
+
+#con {
+    font-family: serif;
+    color: #ebccb7;
+}
+
+#conr {
+    font-family: serif;
+    color: #ebccb7;
+    background-color: #915a34;
+}
+
+#conosc {
+    font-family: serif;
+    color: #3F2318;
+}
+
+#cons {
+    font-family: serif;
+    color: #915a34;
+}
+
+#fondooscurosolo {
+    background-color: #3F2318;
+}
+
+#fondoclarosolo {
+    background-color: #ebccb7;
+    position: relative;
+    z-index: 1;
+}
+
+.fondooscurodeg {
+    background: linear-gradient(to bottom,
+            #3F2318,
+            #915a34);
+}
+
+#fondooscuroborde {
+    background-color: #3F2318;
+    border: #ebccb7;
+}
+
+.mision-vision {
+    min-height: 100vh;
+}
+
+.titulo-principal {
+    display: inline-block;
+    background: #b68a63;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.etiqueta {
+    display: inline-block;
+    background: white;
+    color: #666;
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+
+.card-info {
+    background: rgba(44, 28, 28, 0.9);
+    color: white;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: left;
+    min-height: 320px;
+}
+
+.imagen-cafe {
+    width: 280px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+#fondoclaro {
+    background-color: #ebccb7;
+    color: #3F2318;
+    font-family: serif;
+}
+
+#fondooscuro {
+    background-color: #3F2318;
+    color: #ebccb7;
+    font-family: serif;
+}
+
+#fondomedio {
+    background-color: #915a34;
+    color: #ebccb7;
+    font-family: serif;
+}
+
+.curva {
+    position: absolute;
+    top: 220px;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background: white;
+    border-radius: 50% 50% 0 0;
+    z-index: 0;
+}
+
+.salas-section {
+    min-height: 100vh;
+    background:
+        linear-gradient(rgba(0, 0, 0, .45),
+            rgba(0, 0, 0, .45)),
+        url("fondos/anticafelugar.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo {
+    display: inline-block;
+    background: #c58a5d;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 20px;
+    font-size: 3rem;
+    font-family: serif;
+}
+
+.marco-imagen {
+    background: #3F2318;
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.caja-texto {
+    background: #3F2318;
+    color: #ebccb7;
+    padding: 40px;
+    border-radius: 30px;
+    font-size: 1.8rem;
+    font-family: serif;
+    line-height: 1.6;
+}
+
+.caja-texto2 {
+    background: #3F2318;
+    color: #ebccb7;
+    padding: 35px;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    font-family: serif;
+}
+
+.marco-imagen2 {
+    background: #3F2318;
+    padding: 12px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.titulo-privada {
+    background: #915a34;
+    color: #ebccb7;
+    padding: 15px 40px;
+    border-radius: 20px;
+    font-size: 2.5rem;
+    font-family: serif;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.titulo-relax {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #915a34;
+    color: #ebccb7;
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-size: 2rem;
+    font-family: serif;
+}
+
+body {
+    background: #4d1f12;
+}
+
+.titulo-seccion {
+    background: #915a34;
+    color: white;
+    width: fit-content;
+    margin: auto;
+    padding: 15px 50px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.precio-box {
+    background: #915a34;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.seccion-precios {
+    background: #3F2318;
+    padding: 80px 0;
+}
+
+.ofertas {
+    background: #ebccb7;
+    padding: 80px 0;
+    border-radius: 0 0 50% 50% / 50px;
+}
+
+.img-redonda {
+    border-radius: 25px;
+    width: 100%;
+}
+
+.reglamento-section {
+    position: relative;
+    padding: 150px 0 80px;
+}
+
+.ovalo {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120%;
+    height: 180px;
+    background: #ebccb7;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.reglamento-container {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    background: #3F2318;
+    border-radius: 30px;
+    padding: 90px 50px 40px;
+    z-index: 2;
+}
+
+.titulo-reglamento {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #915a34;
+    padding: 20px 80px;
+    border-radius: 25px;
+}
+
+.titulo-reglamento h2 {
+    color:#ebccb7;
+    margin: 0;
+    font-size: 3rem;
+}
+
+.contenido-reglamento {
+    color: #ebccb7;
+    font-size: 1.5rem;
+}
+
+.contenido-reglamento li {
+    margin-bottom: 15px;
+}
+
+#bory2 {
+    background: #ebccb7;
+}
+
+.titulo-seccion {
+    width: 500px;
+    margin: auto;
+    background: #3F2318;
+    color: #ebccb7;
+    padding: 15px;
+    border-radius: 25px;
+    transform: translateY(-30px);
+}
+
+.redes {
+    background: #3F2318;
+    padding: 80px 0;
+}
+
+.redes h5 {
+    color: #ebccb7;
+}
+
+.icono {
+    font-size: 60px;
+    color: white;
+}
+
+.whatsapp {
+    background: #ebccb7;
+    padding: 80px 0;
+}
+
+.card-whatsapp,
+.info-whatsapp {
+    background: #915a34;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    color: #ebccb7;
+}
+
+.reservas {
+    background: #3F2318;
+    padding: 80px 0;
+}
+
+.reservas label {
+    color: #ebccb7;
+    margin-top: 20px;
+}
+
+.form-control {
+    background: #915a34;
+    border: none;
+    color: #ebccb7;
+    border-radius: 20px;
+}
+.titulo-seccion{
+            background:#a46b42;
+            color:white;
+            border-radius:20px;
+            width:350px;
+            margin:auto;
+            text-align:center;
+            padding:10px;
+        }
+
+        .card-cafe{
+            background:#9b7653;
+            color:#f5e5d8;
+            border:none;
+            border-radius:25px;
+        }
+
+        .fondo-horarios{
+            background:#f2e0d4;
+            padding:50px 0;
+        }
+
+        .dia{
+            background:#3F2318;
+            color:white;
+            border-radius:20px;
+            text-align:center;
+            padding:10px;
+        }
+
+        .hora{
+            background:#6a3f24;
+            color:#f5e5d8;
+            border-radius:20px;
+            text-align:center;
+            padding:10px;
+        }
+
+        .btn-cafe{
+            background:#6a3f24;
+            color:white;
+            border:none;
+        }
+
+        .btn-cafe:hover{
+            background:#55311b;
+            color:white;
+        }
